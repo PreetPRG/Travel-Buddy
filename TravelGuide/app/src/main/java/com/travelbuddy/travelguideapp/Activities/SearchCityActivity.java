@@ -55,7 +55,6 @@ public class SearchCityActivity extends BaseActivity {
                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
                         if (task.isSuccessful()) {
                             for (QueryDocumentSnapshot document : task.getResult()) {
-                                Log.d("Document",document.getReference().toString());
                                 Log.d("EEEE", document.getId() + " => " + document.get("CityName"));
                                 ls.add((String) document.get("CityName"));
                                 map.put(document.getString("CityName"),document.getId());
