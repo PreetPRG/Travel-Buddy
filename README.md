@@ -14,3 +14,10 @@ Firstly user signups or logins to TravelBuddy App, reaches to **Home page** of t
 6. Displaying all the past completed trips to user.
 7. Account management( features like Verify Email, Change password, Deactivate account, Logout etc)
 8. Receiving email upon events like Registering new user, Hiring a guide etc.
+
+Check out TravelBuddy in running demo:
+
+link - https://youtu.be/mldcQ0nGUqc
+
+Check out the Guide Appliction associated to TravelBuddy:
+https://github.com/PreetPRG/Guide_Application
